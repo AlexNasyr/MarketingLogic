@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace MarketingLogic {
-    class MLogic {
+namespace MLogicLib {
+    public class MLogic {
         public int[] R { get; set; }
         public MLogic(string path, string file_name) {
 
@@ -58,4 +58,5 @@ namespace MarketingLogic {
             return rows;
         }
     }
+
 }

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketingLogic", "MarketingLogic\MarketingLogic.csproj", "{06C1FEC6-47FC-4312-9AA0-3FCE272DF668}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketingLogic", "MarketingLogic\MarketingLogic.csproj", "{06C1FEC6-47FC-4312-9AA0-3FCE272DF668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketingLogic.Tests", "MarketingLogic.Tests\MarketingLogic.Tests.csproj", "{7D9F6668-6C1E-4931-8509-6C2CF9F7DA05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLogicLib", "MLogicLib\MLogicLib.csproj", "{ACAAD90B-495B-497F-BFB7-203D3240736C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{06C1FEC6-47FC-4312-9AA0-3FCE272DF668}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06C1FEC6-47FC-4312-9AA0-3FCE272DF668}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06C1FEC6-47FC-4312-9AA0-3FCE272DF668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9F6668-6C1E-4931-8509-6C2CF9F7DA05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9F6668-6C1E-4931-8509-6C2CF9F7DA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9F6668-6C1E-4931-8509-6C2CF9F7DA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9F6668-6C1E-4931-8509-6C2CF9F7DA05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACAAD90B-495B-497F-BFB7-203D3240736C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACAAD90B-495B-497F-BFB7-203D3240736C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACAAD90B-495B-497F-BFB7-203D3240736C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACAAD90B-495B-497F-BFB7-203D3240736C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
