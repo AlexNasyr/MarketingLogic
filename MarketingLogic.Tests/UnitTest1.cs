@@ -12,7 +12,7 @@ namespace MarketingLogic.Tests {
 
         [TestMethod]
         public void TestMethod1() {
-            TestExec(@"_in\", @"test.txt", 4, new int[] { 123, 123, 88, 11 });
+            TestExec(@"..\..\..\..\MarketingLogic\_in\", @"test.txt", 4, new int[] { 123, 123, 88, 11 });
         }
     }
 }

@@ -13,4 +13,8 @@
     <ProjectReference Include="..\MLogicLib\MLogicLib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="_in\" />
+  </ItemGroup>
+
 </Project>
